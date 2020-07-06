@@ -1,0 +1,138 @@
+.main-image-text-container {
+    background-color: #5628D2;
+    display: flex;
+    margin-bottom: 3vw;
+    padding-top: 6vw;
+    border-radius: 3w;
+}
+
+.image-text-container {
+    flex: 1;
+    flex-direction: vertical;
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: normal;
+    align-items: center;
+}
+
+.text-container {
+    width: 60%;
+    margin: auto;
+}
+
+.text-1 {
+    /* font-size: 3.9vw; */
+    font-size: 2.4vw;
+    color: #FFFFFF;
+    line-height: 3.3vw;
+}
+
+.text-2 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.9vw;
+    font-size: 1.7vw;
+    /* font-size: 2.55vw; */
+    color: #FFFFFF;
+}
+
+.text-3 {
+    font-style: normal;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 1.7vw;
+    color: #FFFFFF;
+}
+
+.image-container {
+    align-self: flex-end;
+    flex: 1.4;
+}
+
+.main-body {
+    display: flex;
+}
+
+.menu-items-container {
+    background-color: aqua;
+    flex: 1;
+    padding-right: 2vw;
+}
+
+.main-content {
+    flex: 4;
+}
+
+.menu-item {
+    display: flex;
+    margin-top: 0.3vw;
+}
+
+.menu-item-text {
+    color: black;
+    font-weight: bold;
+    font-size: 1.7vw;
+    flex: 4
+}
+
+.menu-item-symbol {
+    flex: 1;
+    color: black;
+    font-weight: bold;
+    font-size: 2.3vw;
+}
+
+.my-project {
+    padding: 3vw 6.5vw 3vw 6.5vw;
+}
+
+.main-content-header {
+    background-color: red;
+    margin-bottom: 3vw;
+    display: flex;
+}
+
+.input-box-container {
+    background-color: blue;
+    flex: 2;
+}
+
+.input-box {
+    border-radius: 4px;
+    height: 4vw;
+    width: 100%;
+}
+
+.the-button-container {
+    background-color: #fff;
+    flex: 1;
+    text-align: right;
+}
+
+.the-button {
+    background-color: black;
+    color: white;
+    height: 80%;
+    border-radius: 3vw;
+}
+
+.main-content-body {
+    background-color: yellow;
+    /* height: 10vw; */
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+
+.boxes {
+    background-color: black;
+    margin-right: 1vw;
+    margin-bottom: 1vw;
+    flex: 1 0 30%;
+    /* height: 15vw; */
+}
+
+.the-img-house {
+    /* width: 70%; */
+}
