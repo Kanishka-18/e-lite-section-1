@@ -77,7 +77,14 @@
     flex: 1;
     color: black;
     font-weight: bold;
-    font-size: 2.3vw;
+}
+
+.cross-symbol {
+    font-size: 1vw;
+}
+
+.plus-symbol {
+    font-size: 1.9vw;
 }
 
 .my-project {
@@ -154,6 +161,9 @@
     flex: 4;
     display: flex;
     flex-direction: column;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
 }
 
 .res-apartment-text {
@@ -172,24 +182,56 @@
     line-height: 3.5vw;
 }
 
-.bookmark-logo-container {
-    background-color: green;
-}
+.bookmark-logo-container {}
 
 .header-container {
-    background-color: yellow;
     display: flex;
     margin-bottom: 2vw;
 }
 
 .header-text-container {
-    background-color: red;
+    flex: 1;
 }
 
 .login-container {
-    background-color: blue;
+    flex: 1;
+    display: flex;
+}
+
+.empty {
+    background-color: #FFFFFF;
+    flex: 1;
+}
+
+.the-login-buttons {
+    background-color: #FFFFFF;
+    flex: 1;
+    display: flex;
 }
 
 .header-text-description {
     font-size: 2.2vw;
+}
+
+.normal-button {
+    background-color: black;
+    color: white;
+    border-radius: 50vw;
+    padding: 0.5vw 2vw 0.5vw 2vw;
+}
+
+.round-button {
+    background-color: black;
+    color: white;
+    border-radius: 50vw;
+}
+
+.button-container {
+    flex: 1;
+    text-align: center;
+}
+
+.sign-up-text {
+    flex: 1;
+    font-size: 1.5vw;
 }
