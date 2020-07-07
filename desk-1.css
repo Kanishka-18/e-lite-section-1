@@ -3,7 +3,7 @@
     display: flex;
     margin-bottom: 3vw;
     padding-top: 6vw;
-    border-radius: 3w;
+    border-radius: 3vw;
 }
 
 .image-text-container {
@@ -21,7 +21,6 @@
 }
 
 .text-1 {
-    /* font-size: 3.9vw; */
     font-size: 2.4vw;
     color: #FFFFFF;
     line-height: 3.3vw;
@@ -33,7 +32,6 @@
     font-weight: normal;
     line-height: 1.9vw;
     font-size: 1.7vw;
-    /* font-size: 2.55vw; */
     color: #FFFFFF;
 }
 
@@ -55,9 +53,8 @@
 }
 
 .menu-items-container {
-    background-color: aqua;
+    background-color: #FFFFFF;
     flex: 1;
-    padding-right: 2vw;
 }
 
 .main-content {
@@ -118,21 +115,81 @@
 }
 
 .main-content-body {
-    background-color: yellow;
-    /* height: 10vw; */
+    /* background-color: yellow; */
+    padding-left: 2%;
     display: flex;
     flex-wrap: wrap;
-    align-content: space-evenly;
 }
 
 .boxes {
-    background-color: black;
-    margin-right: 1vw;
-    margin-bottom: 1vw;
-    flex: 1 0 30%;
-    /* height: 15vw; */
+    flex: 0 0 30%;
+    flex-direction: column;
+    /* align-items: center; */
+    display: flex;
+    margin-right: 3%;
+    margin-bottom: 2vw;
+    /* flex: 1 1 160px;
+    flex-wrap: wrap; */
+}
+
+.boxes-image-container {
+    margin-bottom: 0.75vw;
 }
 
 .the-img-house {
-    /* width: 70%; */
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.boxes-image-description {
+    display: flex;
+}
+
+.bookmark-logo-container {
+    flex: 1;
+}
+
+.details-container {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+.res-apartment-text {
+    font-size: 1.2vw;
+    line-height: 2.2vw;
+    font-weight: bold;
+}
+
+.address-text {
+    font-size: 0.9vw;
+}
+
+.more-text {
+    font-size: 1.1vw;
+    font-weight: bold;
+    line-height: 3.5vw;
+}
+
+.bookmark-logo-container {
+    background-color: green;
+}
+
+.header-container {
+    background-color: yellow;
+    display: flex;
+    margin-bottom: 2vw;
+}
+
+.header-text-container {
+    background-color: red;
+}
+
+.login-container {
+    background-color: blue;
+}
+
+.header-text-description {
+    font-size: 2.2vw;
 }
